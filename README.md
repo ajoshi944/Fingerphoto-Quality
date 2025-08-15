@@ -66,14 +66,16 @@ For full metrics, protocols, and statistical significance, please refer to the p
 ## 📚 Citation
 
 If you use this work, please cite:
-
-@article{joshi2024ufqa,
-  title={UFQA: Utility Guided Fingerphoto Quality Assessment},
-  author={Joshi, Amol S. and Dabouei, Ali and Dawson, Jeremy and Nasrabadi, Nasser},
-  journal={arXiv preprint arXiv:2407.11141},
-  year={2024}
+```bibtex
+@inproceedings{joshi2024ufqa,
+  title={UFQA: Utility guided Fingerphoto Quality Assessment},
+  author={Joshi, Amol S and Dabouei, Ali and Dawson, Jeremy and Nasrabadi, Nasser},
+  booktitle={2024 IEEE International Joint Conference on Biometrics (IJCB)},
+  pages={1--10},
+  year={2024},
+  organization={IEEE}
 }
-
+```
 ## 📜 License
 
 This code is released for research purposes only.
