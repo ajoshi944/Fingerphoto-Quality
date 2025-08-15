@@ -15,7 +15,7 @@ Quality assessment of fingerphotos i.e. fingerprints captured using smartphone o
 ---
 
 ## 🏗 Architecture
-![UFQA Architecture](images/ufqa_architecture.png)  
+![UFQA Architecture](images/UFQA_arch.png)  
 *UFQA architecture: dual encoders with quality map supervision.*
 
 ---
