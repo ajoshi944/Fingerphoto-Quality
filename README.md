@@ -43,23 +43,19 @@ python train.py --exp_name name_of_the_experiment
 python test.py \
   --exp_name name_of_the_experiment \
 ```
-## 📂 Datasets
-
-Public fingerphoto/fingerprint datasets as referenced in the paper
-
-Quality maps generated via NIST Mindtct (follow dataset/tool licenses)
-
-Note: Some datasets require requests/agreements from providers. This repo does not redistribute any third-party data.
-
 
 ## 📊 Results
 
-Summarized results and ablations are reported in the paper. Example table template (replace with your final numbers):
+Summarized results and ablations are reported in the paper:
 
-Method	Dataset A (metric)	Dataset B (metric)	Notes
-NFIQ2.2	xx.x	xx.x	Baseline IQA
-Baseline CNN	xx.x	xx.x	Supervised
-UFQA (Ours)	xx.x	xx.x	Dual encoder + quality maps
+| Method   | Dataset 1 | Dataset 2 | Dataset 3 |
+|----------|-----------|-----------| --------- |
+| NFIQ 2.2 | 0.0108    | 0.1483    | 0.0025    |
+| HyperIQA | 0.0111    | 0.1478    | 0.0024    |
+| AIT      | 0.0101    | 0.1430    | 0.0022    |
+| UFQA     | 0.0092    | 0.1427    | 0.0013    |
+
+---
 
 For full metrics, protocols, and statistical significance, please refer to the publication.
 
